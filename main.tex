@@ -1,0 +1,265 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+\usepackage{multicol}
+
+% adjust the page margins
+%\usepackage[scale=0.75]{geometry}
+\usepackage[margin=1.6cm]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+
+% personal data
+\name{Mohamed}{M. Soliman}
+%\title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+
+\vspace{6pt}
+\address{825 Student Housing St, Dhahran, Eastern Province, 31261}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+966-55 618 6171}                   % optional, remove / comment the line if not wanted
+\phone[fixed]{012 536 8455}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{m.monem1259@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{linkedin.com/in/mohamed-solomon}                         % optional, remove / comment the line if not wan \email{m.monem1259@gmail.com}                               % optional, remove / comment the line if not wanted
+%\homepage{www.myname.webs.com}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+
+\small{Undergraduate electrical engineer completing the final year of a Bachelor's degree. Passionate about science, with strong technical, and interpersonal skills for working in a team and successfully completing a project.}
+
+\section{Experience}
+
+\vspace{6pt}
+
+\begin{itemize}
+\item{\cventry{February 2017--Present}{Undergraduate Researcher}{King Fahd University of Petroleum and Minerals}{Dhahran}{}{\vspace{3pt}  I am currently working on a digital image processing research paper that studies the performance of a new image denoising algorithm (Image Denoising via Collaborative Support-Agnostic Recovery) on high resolution images. This algorithm shows promising results, however, its performance is  compromised when used on high resolution images due to its heavy computational burden. My research aims to find different ways to reduce this computational burden}}
+
+
+
+\vspace{6pt}
+
+\item{\cventry{June 2016--September 2016}{Electrical Engineering Intern}{Saudi Services Co. Ltd.}{Makkah}{}{\vspace{3pt} I worked as a building management system engineer at the Makkah Royal Clock Tower (the third tallest building in the world) for three months. My responsibilities included monitoring and reporting alarms in HVAC equipment in service floors, and calibrating several types of HVAC Machines. During the internship, I excelled at using the building management system software, Desigo Insight. And at the end of the internship, the company and my colleagues praised my work ethic.}}
+
+
+
+
+
+%\vspace{6pt}
+
+%\item{\cventry{January 2008}{Assistant Electrician}{Ryan Electricals}{Southport}{}{\vspace{3pt}I spent a week working as an assistant electrician as part of my high school work experience. My roles included wiring plugs, tidying, and assisting with household electrical repairs and fittings.}}
+
+\end{itemize}
+
+
+\section{Education}
+
+\vspace{5pt}
+
+\subsection{Academic Qualifications}
+
+\vspace{5pt}
+
+\begin{itemize}
+
+\item{\cventry{2013--2017}{Bachelor of Science in Electrical Engineering, 3.54/4.00}{King Fahd University of Petroleum and Minerals (KFUPM)}{Dhahran}{\textit{\textbf{Second Honors Degree}.}}{}}
+\item {\textit{Relevant Coursework: }Digital Signal Processing / Digital Image Processing / Digital Communication Electronics / Programmable Logic Controllers / Introduction to Smart Card and RFID Tech. / Information Theory and Coding (Audit)}
+
+%\item{\cventry{2009--2011}{A levels}{Runshaw College}{Leyland}{\textit{ICT (A) Physics (B) Maths (B)}}{}}  % arguments 3 to 6 can be left empty
+
+%\item{\cventry{2002--2009}{11 GCSEs}{Southlands High School}{Chorley}{\textit{A* to B Including Maths and English}}{}}
+
+\end{itemize}
+
+\vspace{2pt}
+
+\subsection{Notable Projects}
+
+\vspace{5pt}
+
+\begin{itemize}
+
+\item{\textbf{Senior Project (Ongoing):} \textit{'Development of a Fully Automated Drone Security System'}
+
+\vspace{3pt}
+
+\small{I am the coordinator of a team developing an autonomous security UAV that chases and traps any intruding UAVs flying over a designated area. This ambitious project requires extremely high technical ability. The idea for the project was proposed by myself after reading several news articles about the use of commercial UAVs to illegally smuggle weapons and drugs into correction facilities. My responsibilities include establishing wireless communication between the security UAV and the ground station, acquiring live video feed from the UAV, and, as the coordinator, I am also responsible for ensuring all tasks by other team members are completed on time and meet the specifications of the project.}}
+
+\vspace{6pt}
+
+\item{\textbf{Smart Retirement Home project:} \textit{'Development of indoor localization system for Alzheimer's patients'}
+
+\vspace{3pt}
+
+\small{I was part of a project that aimed to implement health and safety features in nursing homes by providing Alzheimer's patients with RFID tags that can be used to localize the patient and to ensure that he/she doesn't wonder around in any safety hazardous areas, all without invading the patient's privacy. This challenging project required excellent planning and organizational skills, and the ability to teach oneself an entirely new subject, namely, Radio Frequency Identification.}}
+
+\vspace{6pt}
+
+\item{\textbf{Junior Project:}\textit{'Designing a super fast Rubik's Cube Solving Robot'}
+
+\vspace{3pt}
+\small{The team, of which I was the leader, was faced with an unreasonable deadline to finish this challenging project, thus, a strong team-working skills was essential to completing it.The project was a great success and won that semester's best junior project prize, and I am currently developing it to break a world record.}}
+%\item{\textbf{Masters Project (Ongoing):} \textit{'Development of an Intelligent Humanoid Robot'}
+
+%\vspace{3pt}
+
+%\small{I am part of a team developing a 5ft autonomous humanoid robot. This ambitious project requires strong team-working skills and high technical ability. I work well as part of the team, contributing in group discussions and taking initiative to set myself tasks when the next stage of the project is not clear. Given the role of electronics supervisor I am responsible for setting goals and ensuring all the electronic system designs are realised on time and meet the specifications of the project.}}
+
+\end{itemize}
+%The team, of which I was the leader, was faced with an unreasonable deadline to finish this challenging project, thus, a strong team-working skills was essential to completing it.The project was a great success and won that years best junior project award, and I was praised by my colleagues and supervisor for my leadership. I am currently developing it to break a world record.
+
+\newpage
+
+\section{Technical and Personal Skills}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item \textbf{Programming Languages:} Proficient in: C, Python, Matlab, Arduino, \\ Also basic ability with: Assembly.
+
+\vspace{6pt}
+
+\item \textbf{Industry Software Skills:} Matlab (Advanced), Desigo Insight (Intermediate), Most MS Office products including MS Excel and MS project.
+
+\vspace{6pt}
+
+\item \textbf{General Business Skills:} Very Good presentation skills, Works well in a team.
+
+\vspace{6pt}
+
+\item {\textbf{Other:}} A perfectionist and can write well organized and structured reports, Excellent research skills, Good communication and leadership skills.
+
+\vspace{6pt}
+
+\item \textbf{Language:} Fluency in English and Arabic (native language), currently learning German.
+
+\end{itemize}
+
+\section{Interests and Extra-Curricular Activities}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item{I am a \textbf{Program Coordinator} at the IEEE Student Branch at KFUPM, Organized a Seminar about the Internet of Things,and currently organizing the Students and Young Professionals Congress for GCC Students which will be held in Bahrain next May.}
+
+\vspace{6pt}
+
+\item{I participated in the \textbf{Quest by Unilever 2016} and my team was among the top three team in the Pitch Competition, where we were required to pitch a strategy for the brand Lifebuoy to boost their sales in countries were diarrheal diseases are causing a high percentage of child mortality.}
+
+\vspace{6pt}
+
+\item{I am a a member of the \textbf{Scientific Committee} at the KFUPM Electrical Engineering Club, supervised two project that were sponsored by the club, the projects were: a laser cutter made out spare printer parts, and a remote controlled car toy using Arduino microcontroller.}
+
+\vspace{6pt}
+
+\item{I completed a total of \textbf{Ten Hours of Volunteering}, five hours with KFUPM on the 8th Volunteer Day Festival where our area of volunteering was maintenance of public facilities and focuses on the environment. I also completed five hours with Alnabta Group in Jeddah where we taught first graders about environmental issues.}
+
+\vspace{6pt}
+
+\item{I am a \textbf{Professional Architectural Photographer}, I photographed Marbella Dhahran project for Al Soliman Real Estate Co. and several other projects for Makkiyoon Urban Developers in Makkah. I also volunteered several times to photograph social events at KFUPM on behalf of the KFUPM Photography Club.}
+
+\vspace{6pt}
+
+\item{I am a \textbf{Playwright}, at the KFUPM Theater Club. I wrote a the script for a play that is currently in production.}
+
+\vspace{6pt}
+
+\item{I am a \textbf{Film Critic}, and published two long reviews on NoonPost, and several other short review on Social media outlets including Facebook and Twitter.}
+
+
+\end{itemize}
+
+
+\section{Referees}
+
+\vspace{6pt}
+\begin{multicols}{2} 
+\begin{itemize}
+
+\item \textbf{Dr. Mohammed Wasim Raad} \\ Lecturer and Head of Smart Card and RFID Lab \\  Department of Computer Engineering at KFUPM\\ Email: mwraad12@gmail.com
+
+\vspace{6pt}
+
+\item \textbf{Dr. Mohamed A. Deriche} \\ Associate Professor \\  Department of Electrical Engineering at KFUPM\\ Email: mderiche@kfupm.edu.sa
+
+\vspace{6pt}
+
+\item \textbf{Dr. Ali Muqaibel} \\  Associate Professor \\   Department of Electrical Engineering at KFUPM \\ Email: muqaibel@kfupm.edu.sa
+
+\vspace{6pt}
+
+\item \textbf{Dr. Adil Balghonaim} \\  Assistant Professor \\   Department of Electrical Engineering at KFUPM \\ Email: adil@kfupm.edu.sa
+
+\vspace{6pt}
+
+\item \textbf{Dr. Abdelmalek Zidouri} \\  Associate Professor \\   Department of Electrical Engineering at KFUPM \\ Email: malek@kfupm.edu.sa
+
+\vspace{6pt}
+
+\item \textbf{Dr. Mohamed Mohandes} \\  Associate Professor \\   Department of Electrical Engineering at KFUPM \\ Email: mohandes@kfupm.edu.sa
+
+
+\end{itemize}
+
+\end{multicols}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+%-----       letter       ---------------------------------------------------------
+
+\end{document}
+
+
+%% end of file `template.tex'.
